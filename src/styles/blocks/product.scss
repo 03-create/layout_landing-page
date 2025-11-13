@@ -1,0 +1,28 @@
+.product {
+  display: flex;
+  flex-direction: column;
+
+  &__photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  &__category {
+    font-family: $fonts-description;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  &__price {
+    margin-top: auto;
+    font-family: $fonts-title;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}

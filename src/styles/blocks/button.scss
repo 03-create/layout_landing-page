@@ -1,0 +1,55 @@
+.button {
+  display: grid;
+  height: 56px;
+
+  @include on-tablet {
+    width: 600px;
+  }
+
+  @include on-desktop {
+    width: 324px;
+  }
+
+  @include hover(transform, scale(1.1));
+
+  &__view-all {
+    color: #fff;
+    background-color: $main-text-color;
+    border-radius: 8px;
+
+    &:hover {
+      color: $main-text-color;
+      background-color: #f0f1f4;
+    }
+
+    &:active {
+      color: #fff;
+      background-color: $main-text-color;
+    }
+  }
+
+  &__submit {
+    color: $main-text-color;
+    background-color: #f8f8fa;
+    border-radius: 8px;
+    border: none; /* прибирає рамку */
+    outline: none;
+
+    &:hover {
+      color: #fff;
+      background-color: $main-text-color;
+    }
+    &:active {
+      color: $main-text-color;
+      background-color: #f8f8fa;
+    }
+
+    @include on-tablet {
+      width: 600px;
+    }
+
+    @include on-desktop {
+      width: 411px;
+    }
+  }
+}
