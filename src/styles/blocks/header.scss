@@ -11,8 +11,10 @@
   }
 
   &__title {
+    font-family: $fonts-title;
     margin: 0;
     font-size: 36px;
+    font-weight: 700;
     line-height: 100%;
 
     @include on-tablet {

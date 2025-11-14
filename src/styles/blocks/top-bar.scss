@@ -6,12 +6,12 @@
   align-items: center;
 
   @include on-tablet {
-    padding-block: 64px;
+    padding-block: 36px;
   }
 
   &__icons {
     display: flex;
-    gap: 24px;
+    gap: 32px;
   }
 
   &__logo {

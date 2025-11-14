@@ -2,11 +2,15 @@
   display: flex;
   flex-direction: column;
 
+
+
   &__photo {
     width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
+
+    @include hover(transform, scale(1.2));
   }
 
   &__category {

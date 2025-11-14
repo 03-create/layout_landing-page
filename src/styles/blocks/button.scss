@@ -1,14 +1,7 @@
 .button {
   display: grid;
   height: 56px;
-
-  @include on-tablet {
-    width: 600px;
-  }
-
-  @include on-desktop {
-    width: 324px;
-  }
+  width: 100%;
 
   @include hover(transform, scale(1.1));
 
@@ -16,6 +9,13 @@
     color: #fff;
     background-color: $main-text-color;
     border-radius: 8px;
+    border: none; /* прибирає рамку */
+    outline: none;
+
+     @include on-desktop {
+       grid-column: span 6;
+       width: 324px;
+     }
 
     &:hover {
       color: $main-text-color;
@@ -44,12 +44,12 @@
       background-color: #f8f8fa;
     }
 
-    @include on-tablet {
-      width: 600px;
-    }
+    // @include on-tablet {
+    //   width: 600px;
+    // }
 
-    @include on-desktop {
-      width: 411px;
-    }
+    // @include on-desktop {
+    //   width: 411px;
+    // }
   }
 }
