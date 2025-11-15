@@ -1,5 +1,4 @@
 .recommended {
-
   &__products {
     @include page-grid;
 
@@ -8,16 +7,19 @@
   }
 
   &__product {
+
+  &--images {
     overflow: hidden;
 
     grid-column: 1 / -1;
+  }
 
-    @include on-tablet {
+  @include on-tablet {
       grid-column: 1 /-1;
     }
 
     @include on-desktop {
       grid-column: span 4;
     }
-  }
+}
 }
