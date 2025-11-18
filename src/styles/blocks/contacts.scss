@@ -6,13 +6,11 @@
   &__content {
     display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
 
     grid-column: 1 / -1;
 
     @include on-desktop {
       grid-column: span 6;
-      margin-bottom: 80px;
       max-width: 411px;
     }
 

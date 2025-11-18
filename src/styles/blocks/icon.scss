@@ -2,7 +2,6 @@
   display: block;
   height: 24px;
   width: 24px;
-  background-image: url(../icons/icon-burger-menu.png);
   background-size: cover;
 
   @include hover(transform, scale(1.2));
@@ -13,7 +12,31 @@
   }
 
   &--phone {
+    display: flex;
+    position: relative;
+    align-items: center; /* вирівнює по вертикалі */
+    font-family: $fonts-wrapper;
+    font-weight: 700;
+    color: inherit;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
     background-image: url(/src/icons/icon-phone-call.png);
+
+    &::before {
+      content: '+1 234 555-55-55';
+      position: absolute;
+      align-items: center;
+      left: -148px; /* зліва від іконки */
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      white-space: nowrap;
+    }
+
+    &:hover::before {
+      opacity: 1;
+    }
   }
 
   &--menu {

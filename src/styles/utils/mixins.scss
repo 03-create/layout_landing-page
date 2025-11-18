@@ -18,7 +18,7 @@
 }
 
 @mixin content-padding-inline() {
-   max-width: 1260px;
+  box-sizing: unset;
   padding-inline: 20px;
 
   @include on-tablet {

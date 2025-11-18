@@ -12,14 +12,15 @@
     border: none; /* прибирає рамку */
     outline: none;
 
-     @include on-desktop {
-       grid-column: span 6;
-       width: 324px;
-     }
+    @include on-desktop {
+      grid-column: span 6;
+      width: 324px;
+    }
 
     &:hover {
       color: $main-text-color;
-      background-color: #f0f1f4;
+      background-color: #f8f8fa;
+      border: 2px solid #f0f1f4;
     }
 
     &:active {
@@ -29,19 +30,20 @@
   }
 
   &__submit {
-    color: $main-text-color;
-    background-color: #f8f8fa;
+    color: #fff;
+    background-color: $main-text-color;
     border-radius: 8px;
     border: none; /* прибирає рамку */
     outline: none;
 
     &:hover {
-      color: #fff;
-      background-color: $main-text-color;
-    }
-    &:active {
       color: $main-text-color;
       background-color: #f8f8fa;
+      border: 2px solid #f0f1f4;
+    }
+    &:active {
+      color: #fff;
+      background-color: $main-text-color;
     }
 
     // @include on-tablet {

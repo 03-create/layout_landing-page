@@ -1,6 +1,16 @@
 .how-to-buy {
   @include page-grid;
 
+  margin-bottom: 100px;
+
+  @include on-desktop {
+    margin-bottom: 120px;
+  }
+
+  @include on-tablet {
+    margin-bottom: 120px;
+  }
+
   &__title {
     grid-column: 1 / -1;
 
@@ -14,6 +24,10 @@
   }
 
   &__content {
+    font-family: $fonts-description;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
     grid-column: 1 / -1;
 
     @include on-tablet {
@@ -25,7 +39,7 @@
     }
   }
 
-  &__description {
-    line-height: 27px;
-  }
+  // &__description {
+
+  // }
 }
