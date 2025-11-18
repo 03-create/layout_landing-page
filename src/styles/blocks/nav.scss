@@ -1,6 +1,5 @@
-@use '../utils/variables' as* ;
-@use '../utils/mixins' as* ;
-
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
 
 .nav {
   &__list {
@@ -28,7 +27,7 @@
       display: block;
       height: 1px;
       width: 100%;
-      background-color: $main-text-color;;
+      background-color: $main-text-color;
 
       transition: transform 0.3s;
       transform: scale(0);

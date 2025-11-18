@@ -1,6 +1,5 @@
-@use '../utils/variables' as* ;
-@use '../utils/mixins' as* ;
-
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
 
 .menu {
   box-sizing: border-box;
@@ -31,7 +30,7 @@
     width: fit-content;
 
     padding-bottom: 7px;
-    border-bottom: 1px solid $main-text-color;;
+    border-bottom: 1px solid $main-text-color;
 
     font-size: 12px;
     line-height: 16px;

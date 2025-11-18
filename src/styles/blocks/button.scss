@@ -1,6 +1,5 @@
-@use '../utils/variables' as* ;
-@use '../utils/mixins' as* ;
-
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
 
 .button {
   display: grid;
@@ -11,7 +10,7 @@
 
   &__view-all {
     color: #fff;
-    background-color:$main-text-color;;
+    background-color: $main-text-color;
     border-radius: 8px;
     border: none; /* прибирає рамку */
     outline: none;
@@ -22,32 +21,32 @@
     }
 
     &:hover {
-      color: $main-text-color;;
+      color: $main-text-color;
       background-color: #f8f8fa;
       border: 2px solid #f0f1f4;
     }
 
     &:active {
       color: #fff;
-      background-color: $main-text-color;;
+      background-color: $main-text-color;
     }
   }
 
   &__submit {
     color: #fff;
-    background-color: $main-text-color;;
+    background-color: $main-text-color;
     border-radius: 8px;
     border: none; /* прибирає рамку */
     outline: none;
 
     &:hover {
-      color: $main-text-color;;
+      color: $main-text-color;
       background-color: #f8f8fa;
       border: 2px solid #f0f1f4;
     }
     &:active {
       color: #fff;
-      background-color: $main-text-color;;
+      background-color: $main-text-color;
     }
   }
 }

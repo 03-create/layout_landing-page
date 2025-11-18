@@ -1,6 +1,5 @@
-@use '../utils/variables' as* ;
-@use '../utils/mixins' as* ;
-
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
 
 .contacts {
   &__contents {
@@ -19,7 +18,7 @@
     }
 
     &--name {
-      font-family:$fonts-description;
+      font-family: $fonts-description;
       border-radius: 8px;
       margin-bottom: 16px;
       height: 48px;
@@ -42,7 +41,7 @@
     }
 
     &--email {
-      font-family:$fonts-description;
+      font-family: $fonts-description;
       border-radius: 8px;
       margin-bottom: 16px;
       height: 48px;
@@ -65,7 +64,7 @@
     }
 
     &--message {
-      font-family:$fonts-description;
+      font-family: $fonts-description;
       margin-bottom: 32px;
       height: 148px;
       width: 100%; /* робить textarea на всю ширину контейнера */

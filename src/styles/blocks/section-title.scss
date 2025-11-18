@@ -1,6 +1,5 @@
-@use '../utils/variables' as* ;
-@use '../utils/mixins' as* ;
-
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
 
 .section-title {
   margin: 0;
@@ -8,7 +7,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
-  color: $main-text-color;;
+  color: $main-text-color;
   letter-spacing: -1.5px;
 
   text-align: left;

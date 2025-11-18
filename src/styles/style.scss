@@ -1,7 +1,4 @@
-@use './utils/normalize' as*;
-// @use 'utils/variables' as* ;
-// @use 'utils/mixins' as* ;
-
+@use './utils/normalize' as *;
 @use './blocks/button';
 @use './blocks/categories';
 @use './blocks/contacts';
