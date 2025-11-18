@@ -1,6 +1,7 @@
 @import './utils/normalize';
-@import './utils/variablies';
-@import './utils/mixins';
+@import 'utils/variables' ;
+@import 'utils/mixins' ;
+
 @import './blocks/button';
 @import './blocks/categories';
 @import './blocks/contacts';
