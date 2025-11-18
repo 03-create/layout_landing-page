@@ -1,3 +1,7 @@
+@use '../utils/variables' as* ;
+@use '../utils/mixins' as* ;
+
+
 .header {
   background-image: url(../images/header-bg-mobile.png);
   background-size: cover;
