@@ -1,7 +1,7 @@
 @use './variables' as *;
 
 @mixin hover($property, $toValue) {
-  transition: #{$property} 0.4s;
+  transition: #{$property} 0.3s;
   &:hover {
     #{$property}: $toValue;
   }

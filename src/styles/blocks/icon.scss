@@ -7,7 +7,7 @@
   width: 24px;
   background-size: cover;
 
-  @include hover(transform, scale(1.2));
+  @include hover(transform, scale(1.1));
 
   @include on-tablet {
     height: 32px;
@@ -36,8 +36,10 @@
       white-space: nowrap;
     }
 
-    &:hover::before {
+    @include on-desktop{
+      &:hover::before {
       opacity: 1;
+    }
     }
   }
 
