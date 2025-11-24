@@ -98,7 +98,6 @@
       grid-column: span 6;
     }
 
-    
     font-family: $fonts-description;
     box-sizing: border-box;
     font-weight: 400;
@@ -139,8 +138,6 @@
       text-decoration: none;
 
       @include hover(transform, scale(1.03));
-
     }
-
   }
 }

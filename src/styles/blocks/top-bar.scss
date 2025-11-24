@@ -1,13 +1,11 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 
-
 .top-bar {
   padding-block: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 
   @include on-tablet {
     padding-block: 36px;

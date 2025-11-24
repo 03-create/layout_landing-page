@@ -36,10 +36,10 @@
       white-space: nowrap;
     }
 
-    @include on-desktop{
+    @include on-desktop {
       &:hover::before {
-      opacity: 1;
-    }
+        opacity: 1;
+      }
     }
   }
 
